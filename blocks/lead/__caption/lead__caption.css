@@ -4,7 +4,7 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     margin-top: 8px;
-    align-self: start;
+    text-align: start;
 }
 
 @media all and (max-width: 768px) {
