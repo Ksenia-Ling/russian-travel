@@ -4,7 +4,6 @@
     padding-top: 28px;
     max-width: calc(100% - (48px*2));
     min-height: minmax(min-content, max-content);
-    display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
