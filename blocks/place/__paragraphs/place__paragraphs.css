@@ -1,0 +1,13 @@
+.place__paragraphs {
+    width: 100%;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+@media all and (max-width: 675px) {
+    .place__paragraphs {
+        max-width: calc(100% - (16px*2));
+        margin: auto;
+        order: 4;
+    }
+}

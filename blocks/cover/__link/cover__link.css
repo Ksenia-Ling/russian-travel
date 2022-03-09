@@ -1,0 +1,26 @@
+.cover__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.cover__link:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #2A2C2F;
+    opacity: .3;
+    width: 100%;
+    height: 100%;
+}
+
+.cover__link:hover::before {
+    opacity: .8;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
